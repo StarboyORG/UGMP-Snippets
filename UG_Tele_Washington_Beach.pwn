@@ -1,0 +1,65 @@
+enum TeleEnum
+{
+	Tele_CMD[20],
+	Tele_CMDInfo[40],
+	Float:Tele_X,
+	Float:Tele_Y,
+	Float:Tele_Z,
+	Float:Tele_A,
+	bool:Tele_Car,
+	Tele_Mode, // GFMP Mode
+	Tele_Int
+}
+new UG_Tele_Washington_Beach[][TeleEnum]=
+{
+
+	// Washington Beach
+	{"/malibu", 			"malibu club",						7992.3027,-7580.7134,6.4461,224.6922,		false, M_FREEROAM, 0},
+	{"/whp", 				"hospital",							 	7364.5918,-8480.9180,5.4235,281.3282,		true, M_FREEROAM, 0},
+	{"/who", 				"hotel near the hospital 1",			7348.3794,-8641.5371,8.4454,48.9710,		true, M_FREEROAM, 0},
+	{"/wmh", 				"mall near the hospital",				7503.8682,-8432.8535,11.0760,179.7327,		true, M_FREEROAM, 0},
+	{"/wgs", 				"gas station near the hospital",		7537.9307,-8569.4531,5.4239,0.1862,			true, M_FREEROAM, 0},
+	{"/wd2", 				"docks 2",							 	7268.1685,-8800.9648,4.0730,98.1939,		true, M_FREEROAM, 0},
+	{"/wlv", 				"lance vance dance",					7389.0215,-9116.3066,5.0853,226.0675,		true, M_FREEROAM, 0},
+	{"/wpp", 				"pole position :)",						7599.6470,-8976.6934,5.3950,208.6921,		true, M_FREEROAM, 0},
+	{"/wle", 				"lighthouse entrance",					7979.6289,-9218.6729,10.6151,165.4603,		true, M_FREEROAM, 0},
+	{"/wb", 				"BEACH",							 	7941.9258,-8900.9434,7.3564,271.0498,		true, M_FREEROAM, 0},
+	{"/wb2", 				"MORE BEACH",							8161.3896,-8310.4053,6.5372,269.2556,		true, M_FREEROAM, 0},
+	{"/wmb", 				"some place near the malibu",			8124.8066,-7767.1099,8.7900,89.2597,		true, M_FREEROAM, 0},
+	{"/wov", 				"ocean view entrance",					7739.1055,-8779.8818,6.0334,258.3366,		true, M_FREEROAM, 0},
+	{"/w3c", 				"apartment 3c entrance",				7525.5566,-8831.6826,7.9515,84.1205,		true, M_FREEROAM, 0},
+	{"/wstunt", 			"classic stunt",						7507.9795,-8731.2783,5.4267,0.3303,			true, M_FREEROAM, 0},
+	{"/wzb", 				"zip and binco",						7598.9014,-8816.7852,-0.6020,260.7557,		true, M_FREEROAM, 0},
+	{"/wbh", 				"behind a hotel",						7417.3218,-8656.5127,8.5272,268.1226,		true, M_FREEROAM, 0},
+	{"/wsh", 				"safehouse in front of the lawyer",		7588.5161,-8304.8193,6.6908,240.5080,		true, M_FREEROAM, 0},
+	{"/wrb", 				"random building",						7852.1084,-8232.1357,5.5273,336.3040,		true, M_FREEROAM, 0},
+	{"/wvcpd", 				"VCPD HQ",							 	7898.2266,-7970.9482,6.7151,322.0392,		true, M_FREEROAM, 0},
+	{"/wcs", 				"that famous construction site 1",		7631.8979,-7881.6460,4.9132,273.2463,		true, M_FREEROAM, 0},
+	{"/wshq", 				"spandex hq",							7794.5483,-7797.8472,6.9158,178.5645,		true, M_FREEROAM, 0},
+	{"/wcs2", 				"famous construction site 2",			7818.2197,-7749.6772,15.6839,89.4516,		true, M_FREEROAM, 0},
+	{"/wnn", 				"can you explore dis?",					8069.8735,-7446.3228,9.2636,1.4684,			true, M_FREEROAM, 0},
+	{"/wbf", 				"basketball fields",					7957.3530,-7332.5332,6.1998,114.6593,		true, M_FREEROAM, 0},
+	{"/wsp", 				"should be a spawn point",				7738.0986,-7466.0220,5.1753,245.4170,		true, M_FREEROAM, 0},
+	{"/wrm", 				"rich man",							 	8041.6914,-7132.7456,10.3663,76.7701,		true, M_FREEROAM, 0},
+	{"/wch", 				"casual house",							7922.4971,-7124.2822,6.8081,251.8946,		true, M_FREEROAM, 0},
+	{"/wlp", 				"lucky place",							7894.1543,-6980.3428,7.0269,343.8877,		true, M_FREEROAM, 0},
+	{"/wspc", 				"swanko pollo casa",					7928.2524,-6890.6733,7.6898,359.9030,		true, M_FREEROAM, 0},
+	{"/whp2", 				"hospital 2",							7992.0874,-6798.5166,7.0608,84.1230,		true, M_FREEROAM, 0},
+	{"/wnn1", 				"you don't want to spawn here",			7828.0977,-6781.9961,17.8536,54.2649,		true, M_FREEROAM, 0},
+	{"/whun", 				"hunter's location on XE European",		7853.5068,-6608.4253,20.4245,261.4340,		true, M_FREEROAM, 0},
+	{"/wnm", 				"north point mall",						7869.3711,-6509.7012,13.2743,270.9970,		true, M_FREEROAM, 0},
+	{"/wsh4", 				"safehouse",							8031.2104,-6226.4751,13.1133,130.6645,		true, M_FREEROAM, 0},
+	{"/wpi", 				"prawn island - sharks",				7575.0327,-6409.9609,13.7164,180.1178,		true, M_FREEROAM, 0},
+	{"/wbh1", 				"another broken house",					7524.4199,-6352.8003,18.4876,269.4378,		true, M_FREEROAM, 0},
+	{"/wfs", 				"film studio",							7427.5249,-6569.4009,12.9286,178.1303,		true, M_FREEROAM, 0},
+	{"/wfs2", 				"film studio 2 - proud american",		7469.0078,-6490.6270,7.7498,185.7294,		true, M_FREEROAM, 0},
+	{"/wgc1", 				"ugmp golf course screen",				7589.7632,-6930.1328,13.5373,301.3431,		true, M_FREEROAM, 0},
+	{"/wgc2", 				"golf course entrance",					7601.1162,-7248.9346,16.7418,202.0069,		true, M_FREEROAM, 0},
+	{"/wgc3", 				"golf course",							7546.7168,-7645.0620,7.3484,332.8188,		true, M_FREEROAM, 0},
+	{"/wswr", 				"shower",							 	7571.6162,-7997.0054,8.6548,268.4247,		true, M_FREEROAM, 0},
+	{"/wsh1", 				"starfish house 1",						7254.7793,-7823.7212,5.2214,131.2850,		true, M_FREEROAM, 0},
+	{"/wsh2", 				"starfish house 2",						7131.4321,-7918.9185,6.0383,178.9641,		true, M_FREEROAM, 0},
+	{"/wsh3", 				"starfish house 3",						6990.5708,-7923.9995,8.4038,266.2885,		true, M_FREEROAM, 0},
+	{"/wman", 				"MANSION",							 	7121.9297,-8038.5596,12.2419,358.9483,		true, M_FREEROAM, 0}
+};
+
