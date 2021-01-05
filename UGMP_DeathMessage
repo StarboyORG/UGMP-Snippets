@@ -1,0 +1,10 @@
+	
+public OnPlayerDeath(playerid, killerid, reason)
+{
+    if(killerid != INVALID_PLAYER_ID)
+	{
+		if(IsValidWeaponType(reason))
+			SendDeathMessage(killerid, playerid, GetWeaponHighestParentType(reason));
+    }
+    return 1;
+}
